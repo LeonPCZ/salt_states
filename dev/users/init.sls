@@ -1,4 +1,4 @@
-user_mo_ali:
+user_le_pfr:
   user.present:
     - name: le.pfr
     - fullname: Leon Pfeifer
@@ -9,7 +9,7 @@ user_mo_ali:
     - groups:
       - wheel
 
-mo_ali_key:
+le_pfr_key:
   ssh.auth.present:
     - name: le.pfr
     - user: le.pfr
